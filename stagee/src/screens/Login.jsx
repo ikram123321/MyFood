@@ -20,7 +20,10 @@ let navigate=useNavigate()
       alert("Enter valid cerdentials");
     }
     if (json.success) {
+      localStorage.setItem("authToken",json.authToken);
+      console.log(localStorage.getItem("aurhToken"))
     navigate("/")
+
     }
    
   }
