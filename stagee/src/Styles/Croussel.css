@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: inherit;
+    align-items: end;
+    padding: 20px;
+  }
+  #carousel{
+    max-height: 500px;
+  }
+  

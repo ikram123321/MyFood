@@ -1,0 +1,6 @@
+form {
+    display: block;
+    flex-direction: inherit;
+    align-items: end;
+    padding: 20px;
+}
