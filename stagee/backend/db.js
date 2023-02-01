@@ -7,9 +7,12 @@ const mongoDB = async () => {
         await mongoose.connect(mongoURI, { useNewUrlParser: true });
         console.log("connected");
         const client = await mongoose.connection.db;
-        const collection = client.collection("food_items");
-        const data = await collection.find({}).toArray();
-        console.log();
+        const foodItemsCollection = client.collection("food_items");
+        const foodCategoryCollection = client.collection("foodCategory");
+        const foodItemsData = await foodItemsCollection.find({}).toArray();
+        const foodCategoryData = await foodCategoryCollection.find({}).toArray();
+        global.food_items = foodItemsData;
+        global.foodCategory = foodCategoryData;
     } catch (err) {
         console.log(err);
     }
