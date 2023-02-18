@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useDispatchCart, useCart } from './ContextReducer'
-
+import '../Styles/Card.css'
 export default function Card(props) {
 
   let dispatch = useDispatchCart();
@@ -44,7 +44,7 @@ export default function Card(props) {
         <img src={props.foodItem.img} className="card-img-top" alt="pizza" style={{ height: "120px", objectFit: "fill" }} />
         <div className="card-body">
           <h5 className="card-title">{props.foodItem.name}</h5>
-          <p className="card-text">This is some Important text.</p>
+          <p className="card-text">+complement fries katchup</p>
           <div className="container w-100" >
             <select className='m-2 h-100 bg-success rounded' onChange={(e) => setQty(e.target.value)} >
               {Array.from(Array(6), (e, i) => {
@@ -60,7 +60,7 @@ export default function Card(props) {
               })}
             </select>
             <div className='d-inline h-100 fs-5'>
-              ${finalPrice}/-
+              {finalPrice}Dt
             </div>
             <hr />
             <button className={'btn btn-success justify-center ms-2'} onClick={handleAddToCart}>Add To Cart</button>

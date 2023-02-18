@@ -2,12 +2,12 @@ import React from 'react'
 import '../Styles/Footerr.css'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-
+import '../Styles/Footer.css'
 export default function Footer() {
   return (
-    <div>
+    <div >
     
-        <footer>
+        <footer className='fooot bg-success'>
           <div className="footer-col">
             <h4>company</h4>
             <ul>

@@ -7,6 +7,7 @@ import {
 
 } from 'react-router-dom';
 import Home from './screens/Home'
+import ContactUs from './screens/ContactUs';
 
 import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
@@ -28,6 +29,7 @@ function App() {
             <Route exact path="/Login" element={<Login />} />
             <Route exact path="/creatuser" element={<Signup />} />
             <Route exact path="/myOrder" element={<MyOrder />} />
+            <Route exact path="/ContactUs" element={<ContactUs />} />
           </Routes>
         </div>
 
@@ -37,3 +39,4 @@ function App() {
 }
 
 export default App
+

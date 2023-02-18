@@ -4,6 +4,7 @@ import Footerr from '../Components/Footerr'
 import Navbarr from '../Components/Navbarr'
 import Crousel from '../Components/Crousel'
 import { useLoaderData } from 'react-router-dom'
+
 export default function Home() {
 
   const [search, setSearch] = useState('');
@@ -29,6 +30,7 @@ export default function Home() {
 
   return (
     <div>
+      
       <div><Navbarr /></div>
       <div> <div>
                 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{objectFit:"contain !important"}}>
@@ -97,6 +99,7 @@ export default function Home() {
 
       </div>
       <div><Footerr /></div>
+   
     </div>
   )
 }

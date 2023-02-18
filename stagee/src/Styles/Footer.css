@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.footer-col h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-col a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-col a:hover {
+  color: #333;
+}
+
+.social-Links a {
+  margin: 0 0.5rem;
+}
+
+.social-Links a svg {
+  fill: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-Links a:hover svg {
+  fill: #333;
+}
+

@@ -29,8 +29,27 @@ export default function Signup() {
 
 
   return (
-    <>
-      <div className='container'>
+    <div className='d-flex justify-content-center'>
+     
+    <div className='bg-success ' style={{ width: "400px", Height: "70000px" }}>
+    <br /><br /><br /><br /><br />
+    <div className=' d-flex flex-column ' style={{ marginLeft:"30%" }}>
+<h1><strong>M</strong> </h1>
+<br />
+<h1><strong>Y</strong></h1>
+<br />
+<h1><strong>F</strong></h1>
+<br />
+<h1><strong>O</strong></h1>
+<br />
+<h1><strong>O</strong></h1>
+<br />
+<h1><strong>D</strong></h1>
+</div>
+<br /><br /><br /><br /><br />
+
+    </div>
+      <div className='container' style={{marginBottom:"auto",marginTop:"auto"}}>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">Name</label>
@@ -55,6 +74,6 @@ export default function Signup() {
           <Link to="/login" className="m-3 btn btn-danger">Alredy user</Link>
         </form>
       </div>
-    </>
+    </div>
   )
 }

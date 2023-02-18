@@ -4,3 +4,7 @@ form {
     align-items: end;
     padding: 20px;
 }
+h1{
+    font-size: 4em;
+    line-height: 0.9;
+}
