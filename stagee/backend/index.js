@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 3001
 const mongoDB= require("./db")
 mongoDB();
 app.use((req,res,next)=>{

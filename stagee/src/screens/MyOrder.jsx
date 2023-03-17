@@ -6,7 +6,7 @@ import Navbarr from '../Components/Navbarr'
 export default function MyOrder() {
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem('userEmail'))
-    await fetch("http://localhost:5000/api/myOrderData", {
+    await fetch("http://localhost:3001/api/myOrderData", {
       // credentials: 'include',
       // Origin: "http://localhost:3000/login",
       method: 'POST',
@@ -55,7 +55,7 @@ export default function MyOrder() {
                                     <span className='m-1'>{arrayData.size}</span>
                                     <span className='m-1'>{data}</span>
                                     <div className='d-inline ms-2 h-100 w-20 fs-5'>
-                                      ${arrayData.price}/-
+                                      {arrayData.price}DT
                                     </div>
                                   </div>
                                 </div>
@@ -75,7 +75,7 @@ export default function MyOrder() {
       </div>
 
 <br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <div><Footer /></div>
     </div>
   )

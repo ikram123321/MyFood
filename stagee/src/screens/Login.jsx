@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import '../Styles/Login.css';
+import Hero from '../assets/Hero.png'
 
 export default function Login() {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
@@ -11,7 +12,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/loginuser", {
+      const response = await fetch("http://localhost:3001/api/loginuser", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -40,25 +41,17 @@ export default function Login() {
   }
 
   return (
-    <Container className="d-flex justify-content-center">
-      <div className='bg-success ' style={{ width: "400px" }}>
-        <br /><br /><br /><br /><br />
-        <div className=' d-flex flex-column ' style={{ marginLeft:"30%" }}>
-          <h1><strong>M</strong> </h1>
-          <br />
-          <h1><strong>Y</strong></h1>
-          <br />
-          <h1><strong>F</strong></h1>
-          <br />
-          <h1><strong>O</strong></h1>
-          <br />
-          <h1><strong>O</strong></h1>
-          <br />
-          <h1><strong>D</strong></h1>
+    
+   
+     
+     <div className='d-flex justify-content-center'>
+      <div className='bg-success ' style={{ width: "900px"}}>
+        <div className='d-flex flex-column align-items-center justify-content-center' style={{ height: "100vh" }}>
+          <img src={Hero} className="Hero" alt="hero-image" />
+          <h1 className="text-center my-4">Welcome to MY FOOD</h1>
         </div>
-        <br /><br /><br /><br /><br />
       </div>
-      <div className="container" style={{ marginBottom:"auto", marginTop:"auto" }}>
+      <div className='container' style={{marginBottom:"auto",marginTop:"auto"}}>
         <Row className="justify-content-center">
           <Col xs={12} md={8} lg={6}>
             <Form onSubmit={handleSubmit}>
@@ -76,7 +69,9 @@ export default function Login() {
             </Form>
           </Col>
         </Row>
-      </div>
-    </Container>
+   
+        </div>   </div>
+   
+  
   )
 }

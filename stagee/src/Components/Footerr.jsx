@@ -17,7 +17,7 @@ export default function Footerr() {
                     </ul>
                 </div>
                 <div>
-                    <img src="" alt="logo" />
+                    
                 </div>
                 <div className="footer-col">
                     <h4>Contacter nous</h4>

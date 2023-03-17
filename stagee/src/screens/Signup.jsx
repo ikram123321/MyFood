@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom'
+import { Row, Col, Form, Button } from 'react-bootstrap'
 import '../Styles/Signup.css'
 import React, { useState } from 'react'
+import Hero from '../assets/Hero.png'
 
 export default function Signup() {
-
   const [credentials, setcredentials] = useState({ name: "", email: "", password: "", geolocation: "" })
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(JSON.stringify({ name: credentials.name, email: credentials.email, password: credentials.password, location: credentials.geolocation }))
-    const response = await fetch("http://localhost:5000/api/creatuser", {
+    const response = await fetch("http://localhost:3001/api/creatuser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -20,59 +21,57 @@ export default function Signup() {
     console.log(json);
 
     if (!json.success) {
-      alert("Enter valid cerdentials");
+      alert("Enter valid credentials");
     }
   }
+
   const onChange = (event) => {
     setcredentials({ ...credentials, [event.target.name]: event.target.value })
   }
 
-
   return (
     <div className='d-flex justify-content-center'>
-     
-    <div className='bg-success ' style={{ width: "400px", Height: "70000px" }}>
-    <br /><br /><br /><br /><br />
-    <div className=' d-flex flex-column ' style={{ marginLeft:"30%" }}>
-<h1><strong>M</strong> </h1>
-<br />
-<h1><strong>Y</strong></h1>
-<br />
-<h1><strong>F</strong></h1>
-<br />
-<h1><strong>O</strong></h1>
-<br />
-<h1><strong>O</strong></h1>
-<br />
-<h1><strong>D</strong></h1>
-</div>
-<br /><br /><br /><br /><br />
+      <div className='bg-success ' style={{ width: "900px"}}>
+        <div className='d-flex flex-column align-items-center justify-content-center' style={{ height: "100vh" }}>
+          <img src={Hero} className="Hero" alt="hero-image" />
+          <h1 className="text-center my-4">Welcome to MY FOOD</h1>
+        </div>
+      </div>
 
-    </div>
-      <div className='container' style={{marginBottom:"auto",marginTop:"auto"}}>
-        <form onSubmit={handleSubmit}>
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name</label>
-            <input type="text" className="form-control " name="name" value={credentials.name} onChange={onChange} />
-            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-            <input type="email" className="form-control" name="email" value={credentials.email} id="exampleInputEmail1" aria-describedby="emailHelp" onChange={onChange} />
-            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-            <input type="password" className="form-control" name="password" value={credentials.password} id="exampleInputPassword1" onChange={onChange} />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">Location</label>
-            <input type="text" className="form-control" name="geolocation" value={credentials.geolocation} id="exampleInputPassword1" onChange={onChange} />
-          </div>
+      <div className=' container my-5'>
+        <Row className=" justify-content-center">
+          <Col xs={12} md={8} lg={6}><br /><br /><br />
+            <Form onSubmit={handleSubmit}>
+              <Form.Group className="mb-3" controlId="formName">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" name="name" value={credentials.name} onChange={onChange} required />
+              </Form.Group>
 
-          <button type="submit" className="m-3 btn btn-success">Submit</button>
-          <Link to="/login" className="m-3 btn btn-danger">Alredy user</Link>
-        </form>
+              <Form.Group className="mb-3" controlId="formEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" name="email" value={credentials.email} onChange={onChange} required />
+                <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control type="password" name="password" value={credentials.password} onChange={onChange} required />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formLocation">
+                <Form.Label>Location</Form.Label>
+                <Form.Control type="text" name="geolocation" value={credentials.geolocation} onChange={onChange} required />
+              </Form.Group>
+
+              <Button variant="success" type="submit" className="m-3">
+                Submit
+              </Button>
+              <Link to="/login" className="m-3 btn btn-danger">
+                Already a user? Login
+              </Link>
+            </Form>
+          </Col>
+        </Row>
       </div>
     </div>
   )
