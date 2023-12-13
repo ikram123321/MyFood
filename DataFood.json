@@ -1,0 +1,881 @@
+[
+    {
+        "CategoryName":"Pizza",
+        "name":"Margherita",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"7",
+                "medium":"10",
+                "large":"11.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup "
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Végetarienne",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2018/05/pizza-legumes-grilles-et-mozzarella.jpg",
+        "options":[
+            {
+                "regular":"8.5",
+                "medium":"11.5",
+                "large":"14.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Thon",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-thon-mozzarella-tomates-cerises.jpg",
+        "options":[
+            {
+                "regular":"6.5",
+                "medium":"12.5",
+                "large":"16"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Reine",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-thon-mozzarella-tomates-cerises.jpg",
+        "options":[
+            {
+                "regular":"9",
+                "medium":"12",
+                "large":"15"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Pepperoni",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"9",
+                "medium":"12.5",
+                "large":"15.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"4 Saisons",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"11",
+                "medium":"14",
+                "large":"18"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"4 Fromages",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"11",
+                "medium":"15",
+                "large":"20"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Chawarma Myfood",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"8.5",
+                "medium":"12",
+                "large":"14.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Escalope Champi",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-artichauts-fromage-chevre-ail-elephant.jpg",
+        "options":[
+            {
+                "regular":"10",
+                "medium":"15",
+                "large":"17.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Kebab Boeuf",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-thon-mozzarella-tomates-cerises.jpg",
+        "options":[
+            {
+                "regular":"10.5",
+                "medium":"14",
+                "large":"18.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Pizza",
+        "name":"Turc",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2019/08/pizza-thon-mozzarella-tomates-cerises.jpg",
+        "options":[
+            {
+                "regular":"12",
+                "medium":"15",
+                "large":"20"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Buerger",
+        "name":"Kebab Boeuf",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/11/recette-burger-haricots-noirs-patate-douce.jpg",
+        "options":[
+            {
+                "half":"11",
+                "full":"15"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Buerger",
+        "name":"Escalope",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2021/10/recette-burger-chevre-pain-aux-olives.jpg",
+        "options":[
+            {
+                "half":"10",
+                "full":"13"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Chawarma",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6",
+                "full":"7.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Kebab Dinde",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Kebab Boeuf",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Escalope Mariné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Viande Hachée",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"8",
+                "full":"9.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Cordon Bleu",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Escalope Panné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"8.7"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Thon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Kwika",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"5",
+                "full":"6"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Makloub",
+        "name":"Jambon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"5.5",
+                "full":"6.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Chawarma",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"6",
+                "full":"7.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Kebab Dinde",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Kebab Boeuf",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Escalope Mariné",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Viande Hachée",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"8",
+                "full":"9.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Cordon Bleu",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Escalope Panné",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"8.7"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Thon",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Kwika",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"5",
+                "full":"6"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Tacos",
+        "name":"Jambon",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2020/03/recette-tacos-porc-effiloche.jpg",
+        "options":[
+            {
+                "half":"5.5",
+                "full":"6.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Chawarma",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"6",
+                "full":"7.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Kebab Dinde",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Kebab Boeuf",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Escalope Mariné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Viande Hachée",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"8",
+                "full":"9.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Cordon Bleu",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Escalope Panné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"8.7"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Thon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Kwika",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"5",
+                "full":"6"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"BaguetteFarcie",
+        "name":"Jambon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/2/22/Baguette_farcie.jpg",
+        "options":[
+            {
+                "half":"5.5",
+                "full":"6.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Chawarma",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"6",
+                "full":"7.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Kebab Dinde",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Kebab Boeuf",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Escalope Mariné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Viande Hachée",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"8",
+                "full":"9.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Cordon Bleu",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Escalope Panné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"8.7"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Thon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Kwika",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"5",
+                "full":"6"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Linanais",
+        "name":"Jambon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/3/31/Sandwich_Cross-section_%2849695872726%29.jpg",
+        "options":[
+            {
+                "half":"5.5",
+                "full":"6.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Chawarma",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6",
+                "full":"7.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Kebab Dinde",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Kebab Boeuf",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Escalope Mariné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Viande Hachée",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"8",
+                "full":"9.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Cordon Bleu",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Escalope Panné",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"8.7"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Thon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"6.5",
+                "full":"8"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Kwika",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"5",
+                "full":"6"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Calzoni",
+        "name":"Jambon",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG",
+        "options":[
+            {
+                "half":"5.5",
+                "full":"6.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Plats",
+        "name":"Sportif",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/06/salade-aubergines-poivrons.jpg",
+        "options":[
+            {
+                "half":"7",
+                "full":"8.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Plats",
+        "name":"Escalope de Poulet Marine Grille",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/06/salade-aubergines-poivrons.jpg",
+        "options":[
+            {
+                "half":"9",
+                "full":"11"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Plats",
+        "name":"Escalope Panné",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/06/salade-aubergines-poivrons.jpg",
+        "options":[
+            {
+                "half":"10",
+                "full":"12"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Plats",
+        "name":"Escalope sauce Champignion",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/06/salade-aubergines-poivrons.jpg",
+        "options":[
+            {
+                "half":"12",
+                "full":"15"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Plats",
+        "name":"Cordon Bleu",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2022/06/salade-aubergines-poivrons.jpg",
+        "options":[
+            {
+                "half":"12",
+                "full":"14.5"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Mezza",
+        "name":"Cuisse+Mergez+Kebab+Chiken+Kwika+Cordonbleu",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2021/03/wings-de-chou-fleur.jpg",
+        "options":[
+            {
+                "half":"22",
+                "full":"33"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Wings&Nuggeis",
+        "name":"Chiken wings Marine mexico",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2021/03/wings-de-chou-fleur.jpg",
+        "options":[
+            {
+                "half":"7.5",
+                "full":"9"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Wings&Nuggeis",
+        "name":"Chiken Nuggets",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2021/03/wings-de-chou-fleur.jpg",
+        "options":[
+            {
+                "half":"8.5",
+                "full":"10"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    },
+    {
+        "CategoryName":"Wings&Nuggeis",
+        "name":"Chiken wings Panes",
+        "img":"https://turbigo-gourmandises.fr/wp-content/uploads/2021/03/wings-de-chou-fleur.jpg",
+        "options":[
+            {
+                "half":"9.5",
+                "full":"11"
+            }
+        ],
+        "description":"+complement fast food :fries katchup"
+    }
+
+
+
+
+]
